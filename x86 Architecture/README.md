@@ -6,7 +6,7 @@
 - This design allows independent execution of multiple threads by isolating their stacks.
 
 ## Function Return Mechanics
-- When a function is called, the **return address** (_where execution should resume afterwards_) is saved on the stack, along with parameters and local vraiables to form the stack frame.
+- When a function is called, the **return address** (_where execution should resume afterwards_) is saved on the stack, along with parameters and local variables to form the stack frame.
 - Once the function finishes, the CPU retrieves the **return address** from the stack to resume execution in the calling function.
 
 ## CPU Registers
